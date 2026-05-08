@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Bot Telegram untuk ACC anggota WhatsApp Grup - support semua nomor & karakter dunia",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"
@@ -11,6 +12,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "grammy": "^1.30.0",
     "libphonenumber-js": "^1.11.14",
     "express": "^4.18.2"
